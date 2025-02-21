@@ -22,6 +22,7 @@ export default function Quiz() {
   const [answers, setAnswers] = useState([]);
   const [showExplanation, setShowExplanation] = useState(false);
   const [timeLeft, setTimeLeft] = useState(60);
+  
   const {
     loading: generatingQuiz,
     fn: generateQuizFn,
